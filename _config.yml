@@ -59,7 +59,7 @@ plugins:
 
 author:
   name   : "Garret Wagers"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/me.jpeg"
   bio    : "IT professional specializing in Cybersecurity and Data Science."
   links:
     - label: "Website"
