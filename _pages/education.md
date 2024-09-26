@@ -4,8 +4,9 @@ title: "Education"
 ---
 
 # CSU
-## Masters Computer Information Systems | Fall 2022 to Fall 2024
+## Masters Computer Information Systems | est. Grad Fall 2024
 - coursework: Cybersecurity, IT project management, programming & software design
+- projects: OS telemetry analysis, centralized business visualization dashboard
 
 ## Graduate Certificate Cyber Security | Grad. Spring 2024
 - coursework: Cyber Security, IT infrastructure, Application Security
