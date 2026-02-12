@@ -3,11 +3,6 @@ permalink: /education/
 title: "Education"
 ---
 
-<style>
-/* Center the page title for this page only (targets theme header title) */
-.page-header .page-title { text-align: center; }
-</style>
-
 # CSU Fort Collins
 ## Masters Computer Information Systems | Dec 2024
 <u>Coursework</u>: Cybersecurity, IT project management, programming & software design
