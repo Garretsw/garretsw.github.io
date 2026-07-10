@@ -3,3 +3,7 @@ _site
 .jekyll-metadata
 Gemfile.lock
 AGENTS.md
+CLAUDE.md
+.claude/
+baserez.pdf
+baserez.md
