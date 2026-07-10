@@ -13,21 +13,24 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: GW
+title: Garret Wagers
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Garret Wagers' personal site — IT professional specializing in
   cybersecurity, data science, and AI.
 github_username: Garretsw
-minimal_mistakes_skin: default
+minimal_mistakes_skin: contrast
 search: true
+
+# Open Graph / social preview image
+og_image: /assets/images/me.jpeg
 
 # Build settings
 markdown: kramdown
 remote_theme: garretsw/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Denver # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
@@ -53,17 +56,23 @@ plugins:
 author:
   name   : "Garret Wagers"
   avatar : "/assets/images/me.jpeg"
-  bio    : "IT professional specializing in Cybersecurity and Data Science."
+  bio    : "IT professional specializing in Cybersecurity, Data Science, and AI."
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Garretsw"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/garret-wagers-6029299b/"
 
 footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Garretsw"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/garret-wagers-6029299b/"
 
 defaults:
   # _pages

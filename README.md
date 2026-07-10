@@ -16,7 +16,7 @@ bundle exec jekyll build   # build the static site into _site/
 
 - `_pages/` — About, Education, Projects, and 404
 - `_data/navigation.yml` — top nav bar entries
-- `index.html` — homepage content
+- `index.md` — homepage content
 - `assets/images/` — images referenced by pages/config
 
 ## Troubleshooting
