@@ -1,31 +1,26 @@
-# Garret's Personal Github landing page
+# garretsw.github.io
 
-See below for information on current Jekyll theme documentation
+Garret Wagers' personal site, built with Jekyll using the remote theme [`garretsw/minimal-mistakes`](https://github.com/garretsw/minimal-mistakes) (a fork of Minimal Mistakes).
 
-## Minimal Mistakes remote theme starter
+## Local development
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+```bash
+bundle install             # install Ruby gems (first run / after Gemfile changes)
+bundle exec jekyll serve   # build and serve locally at http://localhost:4000
+bundle exec jekyll build   # build the static site into _site/
+```
 
-Contains basic configuration to get you a site with:
+`_config.yml` is not reloaded by `jekyll serve` — restart the server after editing it.
 
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-- Sample 404 page.
-- Site wide search.
+## Structure
 
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
-
----
+- `_pages/` — About, Education, Projects, and 404
+- `_data/navigation.yml` — top nav bar entries
+- `index.html` — homepage content
+- `assets/images/` — images referenced by pages/config
 
 ## Troubleshooting
 
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
-
+- [Jekyll Forum](https://talk.jekyllrb.com/) / [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll)
 - [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
 - [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
