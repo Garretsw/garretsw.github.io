@@ -3,8 +3,6 @@ layout: home
 author_profile: true
 ---
 
-## Turning data into decisions, and systems into secure ones.
-
 I'm an IT professional with 10+ years of experience spanning data science, AI, and cybersecurity — building machine learning models, securing infrastructure, and translating business problems into technical solutions.
 
 **Currently:** mentoring CSU Pueblo's #1-ranked National Cyber League team and building an agentic MCP-based cybersecurity toolkit.
